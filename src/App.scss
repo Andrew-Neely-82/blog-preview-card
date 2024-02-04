@@ -9,7 +9,104 @@ $colors: (
 
 body {
   font-size: 16px;
+  background: map-get($colors, Yellow);
+  font-family: "Figtree";
 }
 
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+
+  .card {
+    background: map-get($colors, White);
+    width: 24rem;
+    border: 1px solid map-get($colors, Black);
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem map-get($colors, black);
+    padding: 2rem;
+    margin: 1.5rem;
+
+    @media screen and (max-width: 430px) {
+      padding: 1.5rem;
+    }
+
+    .cover-pic {
+      max-width: 100%;
+      width: 100%;
+      border-radius: 1rem;
+      overflow: hidden;
+
+      @media screen and (max-width: 430px) {
+        height: 12.5rem;
+        object-fit: cover;
+      }
+    }
+
+    .learning {
+      display: block;
+      width: fit-content;
+      background: map-get($colors, Yellow);
+      font-weight: 800;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      margin-top: 1.5rem;
+      margin-right: auto;
+
+      @media screen and (max-width: 430px) {
+        font-size: 14px;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
+        margin-top: 1.25rem;
+      }
+    }
+
+    .published {
+      font-weight: 600;
+
+      @media screen and (max-width: 430px) {
+        font-size: 14px;
+      }
+    }
+
+    .title {
+      font-size: 27px;
+      font-weight: 800;
+      width: fit-content;
+
+      &:hover {
+        color: map-get($colors, Yellow);
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 430px) {
+        font-size: 20px;
+      }
+    }
+
+    .para {
+      font-size: 18px;
+      color: map-get($colors, Grey);
+      line-height: 1.5;
+
+      @media screen and (max-width: 430px) {
+        font-size: 14px;
+      }
+    }
+
+    .user-container {
+      display: flex;
+      align-items: center;
+      margin-top: 2rem;
+
+      img {
+        width: 2.25rem;
+      }
+      .name {
+        font-weight: 800;
+        margin-left: 1rem;
+      }
+    }
+  }
 }
