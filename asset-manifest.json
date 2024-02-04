@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Andrew-Neely-82.io/blog-preview-card/static/css/main.ffbb2bb0.css",
-    "main.js": "/Andrew-Neely-82.io/blog-preview-card/static/js/main.ab80c8fa.js",
-    "static/media/illustration-article.svg": "/Andrew-Neely-82.io/blog-preview-card/static/media/illustration-article.082cca317c8b4b2c973fa73013373085.svg",
-    "static/media/image-avatar.webp": "/Andrew-Neely-82.io/blog-preview-card/static/media/image-avatar.79dc6fdb93748b6b0120.webp",
-    "index.html": "/Andrew-Neely-82.io/blog-preview-card/index.html",
-    "main.ffbb2bb0.css.map": "/Andrew-Neely-82.io/blog-preview-card/static/css/main.ffbb2bb0.css.map",
-    "main.ab80c8fa.js.map": "/Andrew-Neely-82.io/blog-preview-card/static/js/main.ab80c8fa.js.map"
+    "main.css": "/blog-preview-card/static/css/main.ffbb2bb0.css",
+    "main.js": "/blog-preview-card/static/js/main.be1e71fc.js",
+    "static/media/illustration-article.svg": "/blog-preview-card/static/media/illustration-article.082cca317c8b4b2c973fa73013373085.svg",
+    "static/media/image-avatar.webp": "/blog-preview-card/static/media/image-avatar.79dc6fdb93748b6b0120.webp",
+    "index.html": "/blog-preview-card/index.html",
+    "main.ffbb2bb0.css.map": "/blog-preview-card/static/css/main.ffbb2bb0.css.map",
+    "main.be1e71fc.js.map": "/blog-preview-card/static/js/main.be1e71fc.js.map"
   },
   "entrypoints": [
     "static/css/main.ffbb2bb0.css",
-    "static/js/main.ab80c8fa.js"
+    "static/js/main.be1e71fc.js"
   ]
 }
